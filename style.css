@@ -7,3 +7,16 @@
     --text-dark-gray: #68718B;
     --background-color: #fff;
 }
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url(./Fonts/DM_Sans/static/DMSans-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url(./Fonts/DM_Sans/static/DMSans-Regular.ttf);
+    font-weight: 400;
+}
+
