@@ -207,3 +207,13 @@ section {
     margin-left: 4px;
 }
 
+.analytics-img img {
+    width: 100%;
+    max-width: 1016px;
+    position: absolute;
+    top: 260px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
