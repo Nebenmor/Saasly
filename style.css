@@ -260,3 +260,21 @@ section {
         transform: translateY(0);
     }
 }
+
+/* Animations */
+/* Hero Text Content */
+.hero .inner-wrapper .content {
+    animation: fadeIn 800ms forwards;
+    animation-delay: 400ms;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
