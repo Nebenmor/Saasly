@@ -33,6 +33,7 @@ html {
 
 body {
     font-family: 'DM Sans', sans-serif;
+    background: var(--background-color);
 }
 
 .wrapper {
@@ -239,4 +240,23 @@ section {
 
 .brand img:nth-last-child(1) {
     margin-right: 0;
+}
+
+/* Animation */
+/* Desktop Nav */
+.desktop-nav {
+    animation: fadeDown 2000ms forwards;
+    opacity: 0;
+}
+
+@keyframes fadeDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
