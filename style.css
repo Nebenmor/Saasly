@@ -218,3 +218,25 @@ section {
     bottom: 0;
 }
 
+/* brand */
+
+.brand {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1100px;
+    bottom: 0;
+}
+
+.brand img {
+    margin: 0 21px;
+}
+
+.brand img:nth-child(1)
+ {
+    margin-left: 0;
+}
+
+.brand img:nth-last-child(1) {
+    margin-right: 0;
+}
